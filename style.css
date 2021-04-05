@@ -1,0 +1,269 @@
+html, body {
+    font-family: 'Dosis', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", cursive;
+}
+
+/* ヘッダー */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+/* メニューバー */
+.menu-bar-right {
+    float: left;
+    margin-left: 10px;
+}
+
+.menu-bar-right a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 10px 10px 0 10px;
+}
+
+.menu-bar-right a:hover {
+    opacity: 0.4;
+}
+
+.menu-bar-left {
+    float: right;
+    margin-right: 10px;
+}
+
+.menu-bar-left a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 5px 10px 0 10px;
+}
+
+.menu-bar-left a:hover {
+    opacity: 0.4;
+}
+
+
+/* タイトル */
+.top-page {
+    width: 100%;
+    text-align: center;
+    padding: 300px 0px 300px 0px;
+}
+
+.my-name {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.worker {
+    padding-top: 3px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #aaaaaa;
+}
+
+/* メインコンテンツ */
+
+/* About Me*/
+.about-me {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 20px;
+}
+
+.m-picture {
+    width: 30%;
+}
+
+.my-picture {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+
+.introduction-1 {
+    width: 30%;
+}
+
+.i-title {
+    font-size: 1vw;
+    letter-spacing: 3px;
+    margin-bottom: 2vw;
+}
+
+.i-text {
+    font-size: 1vw;
+    letter-spacing: 2px;
+    color: #aaaaaa;
+}
+
+/* スキル */
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.grey {
+    width: 15vw;
+    height: 15vw;
+}
+
+.skill-item {
+    flex: auto;
+    padding-top: 10px;
+    margin: 40px;
+}
+
+.skill-title {
+    margin-bottom: 0;
+}
+
+
+/*仕事*/
+.service-section {
+    background-color: #f7f7f7;
+    padding: 150px 20px 50px 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    margin-left: 2.5vw;
+    flex: auto;
+    margin-bottom: 2vw;
+}
+
+.service-title {
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 2vw;
+}
+
+.service-content {
+    justify-content: center;
+    width: 80%;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    color: #aaaaaa;
+    margin-left: 20px;
+}
+
+.fee {
+    font-size: 1vw;
+    letter-spacing: 2px;
+    color: #aaaaaa;
+    margin-left: 20px;
+    width: 80%;
+}
+
+.other {
+    text-align: center;
+    margin-top: 3vw;
+    letter-spacing: 2px;
+}
+
+
+/*仕事*/
+.work-section {
+    padding: 70px 20px;
+}
+
+
+.portfolio {
+    width: 30vw;
+    height: 15vw;
+}
+
+.work-item {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5vw;
+    margin-bottom:7vw;
+}
+
+.p-text {
+    width: 30vw;
+    height: 15vw;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    color: #aaaaaa;
+}
+
+/* フッター */
+
+/* コンタクト* */
+
+.contact-section {
+    background-color: #f7f7f7;
+    padding: 80px 20px 0 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    color: #aaaaaa;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    padding: 0 10px 30px 10px;
+}
+
+.mail {
+    color: #fe3939;
+}
+
+.mail:hover {
+    text-decoration: none;
+    color: #fe3939;
+    opacity: 0.4;
+}
+
+
+.copyright {
+    color: #aaaaaa;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 5px 10px 0 10px;
+    text-align: center;
+}
+
+
+/*レスポンジブ対応*/
+@media(max-width:670px) {
+
+    .service-section {
+        padding: 10vw;
+    }
+
+    .services {
+        display: block;
+        width: 80%;
+        margin: 0 0 0 10vw;
+    }
+
+    .service-title {
+        margin-bottom: 5vw;
+    }
+
+    .service-item {
+        margin-bottom: 15vw;
+    }
+
+
+}
+
